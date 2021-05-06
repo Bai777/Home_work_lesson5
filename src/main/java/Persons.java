@@ -12,6 +12,7 @@ public class Persons {
 
         persArray[4] = new Employee("Sirius Dmitriy Ivanovich", "Developer", "sirius@gmail.com", "89245678900", 150000.0, 47);
 
+
         for (Employee value : persArray) {
             if (value.getAge() > 40)
                 System.out.println(value);
